@@ -1,0 +1,16 @@
+{
+  "volume": {
+    "yes": 0.55,
+    "no": 0.55,
+    "hit": 0.8,
+    "haggle": 0.6,
+    "idle": 0.45
+  },
+  "attenuation_distance": {
+    "yes": 9,
+    "no": 9,
+    "hit": 12,
+    "haggle": 10,
+    "idle": 8
+  }
+}
