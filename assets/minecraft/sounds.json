@@ -1,0 +1,349 @@
+{
+  "entity.villager.yes": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "villager_custom/yes/yes1",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/yes/yes2",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/yes/yes3",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      }
+    ]
+  },
+  "entity.villager.no": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "villager_custom/no/no1",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/no/no2",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/no/no3",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      }
+    ]
+  },
+  "entity.villager.hurt": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "villager_custom/hit/hit1",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/hit/hit2",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/hit/hit3",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/hit/hit4",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/hit/hit5",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/hit/hit6",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/hit/hit7",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/hit/hit8",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/hit/hit9",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/hit/hit10",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      }
+    ]
+  },
+  "entity.villager.death": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "villager_custom/hit/hit1",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/hit/hit2",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/hit/hit3",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/hit/hit4",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/hit/hit5",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/hit/hit6",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/hit/hit7",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/hit/hit8",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/hit/hit9",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/hit/hit10",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      }
+    ]
+  },
+  "entity.villager.ambient": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "villager_custom/idle/idle1",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/idle/idle2",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/idle/idle3",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/idle/idle4",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/idle/idle5",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/idle/idle6",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/idle/idle7",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/idle/idle8",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/idle/idle9",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/idle/idle10",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/idle/idle11",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/idle/idle12",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/idle/idle13",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/idle/idle14",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/idle/idle15",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/idle/idle16",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/idle/idle17",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/idle/idle18",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/idle/idle19",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/idle/idle20",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      }
+    ]
+  },
+  "entity.villager.trade": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "villager_custom/haggle/haggle1",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/haggle/haggle2",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/haggle/haggle3",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      }
+    ]
+  },
+  "entity.villager.celebrate": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "villager_custom/haggle/haggle1",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/haggle/haggle2",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      },
+      {
+        "name": "villager_custom/haggle/haggle3",
+        "volume": 0.65,
+        "pitch": 1.0,
+        "attenuation_distance": 8
+      }
+    ]
+  }
+}
