@@ -1,6 +1,30 @@
 # Villager Voices+ Resource Pack (Minecraft 1.20.1)
 
-This repository is a **ready-to-use resource pack** for Minecraft Java **1.20.1**.
+This is a **ready-to-use resource pack** for Minecraft Java **1.20.1**.
+
+## Important (why packs sometimes do not appear)
+
+A Minecraft resource pack is only detected when **`pack.mcmeta` is at the top level** of the pack.
+
+Correct:
+
+- `resourcepacks/VillagerVoicesPlus_1.20.1.zip`
+  - `pack.mcmeta`
+  - `pack.png`
+  - `assets/...`
+
+Incorrect (won't appear):
+
+- `resourcepacks/VillagerVoicesPlus_1.20.1.zip`
+  - `VillagerVoicesPlus_1.20.1/`
+    - `pack.mcmeta`
+
+To make this easy, this repo includes both:
+
+- **`VillagerVoicesPlus_1.20.1/`** (ready-to-copy folder)
+- **`VillagerVoicesPlus_1.20.1.zip`** (ready-to-copy zip)
+
+Copy either one directly into your `resourcepacks` folder.
 
 ## What it does
 
@@ -17,9 +41,9 @@ It also makes villager voice playback:
 - **quieter** (`volume: 0.65`)
 - **shorter draw distance** (`attenuation_distance: 8`)
 
-These values are in `assets/minecraft/sounds.json` and can be edited.
+These values are in `assets/minecraft/sounds.json` and are configurable.
 
-## Folder layout for your audio files
+## Where to put your audio files
 
 Put your `.ogg` files into these folders:
 
@@ -29,26 +53,26 @@ Put your `.ogg` files into these folders:
 - `assets/minecraft/sounds/villager_custom/haggle/`
 - `assets/minecraft/sounds/villager_custom/idle/`
 
-## Use it (no extra setup)
+## Install
 
-1. Copy this whole folder as a zip (or folder) into your Minecraft `resourcepacks` directory.
-2. Drop your `.ogg` files into the folders above, following the exact names.
-3. Enable the pack in Minecraft.
+1. Copy either **`VillagerVoicesPlus_1.20.1/`** or **`VillagerVoicesPlus_1.20.1.zip`** into your Minecraft `resourcepacks` folder.
+2. If you use the folder version, paste your `.ogg` files into its matching `assets/minecraft/sounds/villager_custom/...` folders.
+3. Open Minecraft → Options → Resource Packs → enable **Villager Voices+**.
 
-With the required filenames above, it works immediately.
+## Expanding idle sounds beyond 20 (optional)
 
-## Expanding idle sounds beyond 20
+Minecraft requires listed entries in `sounds.json`.
 
-Minecraft resource packs require each sound entry to be listed in `sounds.json`.
-
-To automatically include extra files (example: `idle21.ogg`, `idle22.ogg`, etc.), this pack includes:
-
-- `scripts/build_sounds_json.py`
-
-Run:
+If you add files like `idle21.ogg`, `idle22.ogg`, etc., run:
 
 ```bash
 python scripts/build_sounds_json.py
 ```
 
-That script scans your audio folders and rewrites `assets/minecraft/sounds.json` with every detected file.
+That script scans your folders and rewrites `assets/minecraft/sounds.json` automatically.
+
+Then rebuild the zip with:
+
+```bash
+python scripts/build_pack_zip.py
+```
