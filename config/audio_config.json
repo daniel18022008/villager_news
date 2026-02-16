@@ -1,0 +1,29 @@
+{
+  "_comment": [
+    "Villager sound generation config (Minecraft 1.20.1 resource pack)",
+    "Add your .ogg files into resourcepack/assets/minecraft/sounds/entity/villager/custom/{yes,no,hit,haggle,idle}",
+    "Then run: python3 tools/generate_sounds.py"
+  ],
+  "events": {
+    "yes": {
+      "volume": 0.75,
+      "attenuation_distance": 8
+    },
+    "no": {
+      "volume": 0.75,
+      "attenuation_distance": 8
+    },
+    "hit": {
+      "volume": 0.8,
+      "attenuation_distance": 10
+    },
+    "haggle": {
+      "volume": 0.7,
+      "attenuation_distance": 8
+    },
+    "idle": {
+      "volume": 0.6,
+      "attenuation_distance": 6
+    }
+  }
+}
